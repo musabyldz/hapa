@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/uygulamabilgisi"
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HAPA Hakkında"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:fontFamily="@font/optimus"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uygulama Amacı"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/mithellaregular"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HAPA kullanıcılara eğlenceli bir şekilde mesajlaşma fırsatı sunmaktadır."
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/mithellaregular"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gizlilik Seviyesi Nedir?"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/mithellaregular"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HAPA'nın gizlilik seviyesi oldukça düşüktür."
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/mithellaregular"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayıt Ol Sistemi Neden Yok?"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/mithellaregular"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayıt ol sisteminin olmamasının en büyük sebebi insanlara farklı bir eğlence aşılayabilmektir. Herkes birbirinin profiline girip bir başkasıyla konuşabilir ve herkes anonim bir şekilde olabilir."
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/mithellaregular"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neden Basit Bir Arayüz?"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/mithellaregular"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/mithellaregular"
+        android:text="Karmaşık bir arayüz ile kullanıcıları yormak istemedik. Basit bir arayüz ve az bir ekran ile olabildiğince fazla eğlence vermek istiyoruz."
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HAPA'nın Kurucusu ve Versiyon?"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/mithellaregular"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nupen Co. ve 1.0"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/mithellaregular"
+        />
+
+    <Button
+        android:id="@+id/geriDon"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:onClick="GeriDonClicked"
+        android:text="Geri Dön" />
+
+
+</LinearLayout>
+
